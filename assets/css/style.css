@@ -6096,7 +6096,7 @@ object {
 
 .v-social-buttom{
   width: 50px!important;
-  height: 100%!important;
+  height: 35px!important;
   background-color: transparent!important;
   border-color: transparent!important;
   display: flex;
@@ -6107,12 +6107,6 @@ object {
   font-size: 20px;
 }
 
-.v-social-container{
-  width: 110px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 
 @media (max-width: 767px) {
