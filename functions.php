@@ -12,3 +12,10 @@
  */
 require_once 'inc/class-tyche-autoloader.php';
 $tyche = new Tyche();
+
+//Remove Sales Flash
+add_filter('woocommerce_sale_flash', 'woo_custom_hide_sales_flash');
+function woo_custom_hide_sales_flash()
+{
+    return false;
+}
