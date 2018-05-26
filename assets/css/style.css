@@ -5078,8 +5078,8 @@ a:hover, a:active {
   color: #FFF;
 }
 .woocommerce ul.products li.product .woocommerce-loop-product__title {
-  font-size: 19px;
-  line-height: 19px;
+  font-size: 15px!important;
+  line-height: 15px!important;
   padding: 15px 0;
 }
 .woocommerce ul.products li.product h3 {
