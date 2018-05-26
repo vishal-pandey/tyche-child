@@ -4197,6 +4197,9 @@ a:hover, a:active {
 .v-social-buttom{
   background-color: black;
 }
+.v-social-buttom i{
+  font-size: 20px;
+}
 
 /*----------------
 # Vishal Edit End
