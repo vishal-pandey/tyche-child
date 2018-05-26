@@ -4195,7 +4195,7 @@ a:hover, a:active {
 # Vishal Edit Start
 ------------------*/
 .v-social-buttom{
-  background-color: black;
+  background-color: black!important;
 }
 .v-social-buttom i{
   font-size: 20px;
