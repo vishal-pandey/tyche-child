@@ -15,7 +15,7 @@
 			<div class="col-md-12">
 				<ul class="top-header-bar">
 					<!-- Email -->
-					<li class="top-email">
+					<li class="top-email v-social-container">
 						<a href="https://fb.com/getupgeek"><span class="v-social-buttom"><i class="fa fa-facebook"></i></span></a>
 						<a href="https://instagram.com/getupgeek"><span class="v-social-buttom"><i class="fa fa-instagram"></i></span></a>
 					</li>
