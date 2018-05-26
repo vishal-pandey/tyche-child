@@ -19,11 +19,11 @@
 						<a href="https://fb.com/getupgeek"><button class="v-social-buttom"><i class="fa fa-facebook"></i></button></a>
 						<a href="https://instagram.com/getupgeek"><button class="v-social-buttom"><i class="fa fa-instagram"></i></button></a>
 					</li>
-					<span class="v-desktop-only">
+					
 					<!-- / Email -->
 					<?php if ( class_exists( 'WooCommerce' ) ) : ?>
 						<!-- Cart -->
-						<li class="top-cart">
+						<li class="top-cart v-desktop-only">
 							<a href="<?php echo esc_url( Tyche_Helper::get_woocommerge_page( 'cart' ) ); ?>"><i class="fa fa-shopping-cart"></i> <?php echo esc_html__( 'My Cart', 'tyche' ); ?>
 								- <?php echo esc_html( get_woocommerce_currency_symbol( get_woocommerce_currency() ) ) . ' <span class="price">' . esc_html( Tyche_WooCommerce_Hooks::get_cart_total() ) . '</span>'; ?>
 							</a>
@@ -32,7 +32,7 @@
 
 					<?php if ( class_exists( 'WooCommerce' ) ) : ?>
 						<!-- Account -->
-						<li class="top-account">
+						<li class="top-account v-desktop-only">
 							<a href="<?php echo esc_url( Tyche_Helper::get_woocommerge_page( 'account' ) ); ?>"><i class="fa fa-user"></i> <?php echo esc_html__( 'Account', 'tyche' ); ?>
 							</a>
 						</li><!-- / Account -->
@@ -40,7 +40,7 @@
 
 					<?php if ( function_exists( 'pll_the_languages' ) ) : ?>
 						<!-- Multi language picker -->
-						<li class="top-multilang">
+						<li class="top-multilang v-desktop-only">
 							<?php
 							$current_lang = pll_current_language( 'name' );
 							$current_flag = pll_current_language( 'flag' );
@@ -63,7 +63,7 @@
 					?>
 					<?php if ( 'enabled' === $enable_search_bar ) : ?>
 						<!-- Top Search -->
-						<li class="top-search">
+						<li class="top-search v-desktop-only">
 							<!-- Search Form -->
 							<form role="search" method="get" class="pull-right" id="searchform_topbar" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 								<label>
@@ -76,7 +76,7 @@
 							</form>
 						</li><!-- / Top Search -->
 					<?php endif; ?>
-					</span>
+
 				</ul>
 			</div>
 		</div>
