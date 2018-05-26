@@ -6102,3 +6102,9 @@ object {
   align-items: center!important;
   justify-content: center!important;
 }
+@media (max-width: 767px) {
+
+  .v-desktop-only{
+    display: none;
+  }
+}

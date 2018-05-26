@@ -19,6 +19,7 @@
 						<a href="https://fb.com/getupgeek"><button class="v-social-buttom"><i class="fa fa-facebook"></i></button></a>
 						<a href="https://instagram.com/getupgeek"><button class="v-social-buttom"><i class="fa fa-instagram"></i></button></a>
 					</li>
+					<span class="v-desktop-only">
 					<!-- / Email -->
 					<?php if ( class_exists( 'WooCommerce' ) ) : ?>
 						<!-- Cart -->
@@ -75,6 +76,7 @@
 							</form>
 						</li><!-- / Top Search -->
 					<?php endif; ?>
+					</span>
 				</ul>
 			</div>
 		</div>
