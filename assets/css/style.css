@@ -5563,6 +5563,7 @@ a:hover, a:active {
 .tyche-product input[type="submit"], .tyche-product .tyche-blog-post .more-link, .tyche-blog-post .tyche-product .more-link, .tyche-product .main-slider .hero-caption .btn-group a, .main-slider .hero-caption .btn-group .tyche-product a, .tyche-product .woocommerce a.button, .woocommerce .tyche-product a.button, .tyche-product .woocommerce div.product form.cart .button, .woocommerce div.product form.cart .tyche-product .button, .tyche-product .tyche-product-slider-container .tyche-banner a, .tyche-product-slider-container .tyche-banner .tyche-product a, .tyche-product .woocommerce .price_slider_amount .button, .woocommerce .price_slider_amount .tyche-product .button {
   margin-top: 10px;
   text-transform: uppercase;
+  font-size: 12px!important;
 }
 .tyche-product .price {
   color: #2a313e;
