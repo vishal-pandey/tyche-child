@@ -6080,3 +6080,25 @@ object {
 .gallery-caption {
   display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------
+ *  Vishal Edit
+ *  Start Here
+-------------------*/
+
+
+.v-featureImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
