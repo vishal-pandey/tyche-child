@@ -4302,6 +4302,10 @@ a:hover, a:active {
   padding-left: 20px;
   margin-right: 20px;
   border-left: 1px solid #353940;
+  height: 35px!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-header-bar-container .top-header-bar li.top-account a:hover {
   color: #F66249;
