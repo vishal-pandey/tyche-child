@@ -5154,7 +5154,7 @@ a:hover, a:active {
 .woocommerce div.product p.price,
 .woocommerce div.product span.price {
   font-weight: 700;
-  font-size: 20px!important;
+  font-size: 25px;
   color: #2a313e;
 }
 .woocommerce .woocommerce-Price-currencySymbol {
@@ -6119,7 +6119,7 @@ object {
 .woocommerce div.product p.price,
 .woocommerce div.product span.price {
   font-weight: 700;
-  font-size: 20px!important;
+  font-size: 25px;
   color: #2a313e;
 }
 
