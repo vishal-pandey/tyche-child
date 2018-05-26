@@ -4190,6 +4190,19 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Modules ## Header Bar
 --------------------------------------------------------------*/
+
+/*----------------
+# Vishal Edit Start
+------------------*/
+.v-social-buttom{
+  background-color: black;
+}
+
+/*----------------
+# Vishal Edit End
+------------------*/
+
+
 .top-header-bar-container {
   width: 100%;
   background: #2b2e34;
