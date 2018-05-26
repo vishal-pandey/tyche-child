@@ -64,7 +64,7 @@
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-8">
+							<div class="col-md-8 v-mobile-nav">
 								<?php
 								wp_nav_menu(
 									array(

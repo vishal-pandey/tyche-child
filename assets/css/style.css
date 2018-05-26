@@ -6107,4 +6107,7 @@ object {
   .v-desktop-only{
     display: none!important;
   }
+  .v-mobile-nav{
+    height: 35px!important;
+  }
 }
