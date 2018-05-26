@@ -2444,7 +2444,7 @@ a:hover, a:active {
    ========================================================================== */
 .sf-menu {
   width: 100%;
-  border-top: 1px solid #35373e;
+  /*border-top: 1px solid #35373e;*/
   margin-top: 15px;
 }
 
