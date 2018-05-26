@@ -6113,4 +6113,7 @@ object {
     align-items: center;
     justify-content: flex-start;
   }
+  .main-slider{
+    height: 500px!important;
+  }
 }
