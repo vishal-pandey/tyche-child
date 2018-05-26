@@ -4194,17 +4194,7 @@ a:hover, a:active {
 /*----------------
 # Vishal Edit Start
 ------------------*/
-.v-social-buttom{
-  background-color: transparent!important;
-  border-color: transparent!important;
-  height: 30px!important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.v-social-buttom i{
-  font-size: 20px;
-}
+
 
 /*----------------
 # Vishal Edit End
@@ -6102,6 +6092,23 @@ object {
   align-items: center!important;
   justify-content: center!important;
 }
+
+
+.v-social-buttom{
+  width: 50px!important;
+  height: 100%!important;
+  background-color: transparent!important;
+  border-color: transparent!important;
+  height: 30px!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.v-social-buttom i{
+  font-size: 20px;
+}
+
+
 @media (max-width: 767px) {
 
   .v-desktop-only{
