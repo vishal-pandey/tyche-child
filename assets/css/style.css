@@ -4258,7 +4258,10 @@ a:hover, a:active {
   padding-left: 40px;
   padding-right: 40px;
   background: #F66249;
-  height: 25px!important;
+  height: 35px!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-header-bar-container .top-header-bar li.top-cart:hover {
   background: #f43818;
