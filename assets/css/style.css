@@ -6106,6 +6106,15 @@ object {
 }
 
 
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  font-size: 15px!important;
+  line-height: 15px!important;
+  padding: 15px 0;
+}
+.woocommerce ul.products li.product h3 {
+  font-size: 18px;
+}
+
 
 @media (max-width: 767px) {
 
