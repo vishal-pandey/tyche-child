@@ -4230,6 +4230,10 @@ a:hover, a:active {
 }
 .top-header-bar-container .top-header-bar li.top-search {
   margin-right: 11px;
+  height: 35px!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-header-bar-container .top-header-bar li.top-search input {
   background: #25262b;
