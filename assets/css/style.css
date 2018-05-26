@@ -6115,14 +6115,12 @@ object {
   font-size: 18px;
 }
 
-
-.woocommerce div.product p.price,
-.woocommerce div.product span.price {
-  font-weight: 700;
-  font-size: 25px;
+.woocommerce ul.products li.product .price {
   color: #2a313e;
+  font-size: 15px!important;
+  font-weight: 700;
+  margin-bottom: 0;
 }
-
 
 
 @media (max-width: 767px) {
