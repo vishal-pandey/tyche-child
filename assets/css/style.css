@@ -6105,6 +6105,6 @@ object {
 @media (max-width: 767px) {
 
   .v-desktop-only{
-    display: none;
+    display: none!important;
   }
 }
