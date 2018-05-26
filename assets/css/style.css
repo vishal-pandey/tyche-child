@@ -6109,5 +6109,8 @@ object {
   }
   .v-mobile-nav{
     height: 35px!important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
 }
