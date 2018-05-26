@@ -6116,4 +6116,8 @@ object {
   .main-slider{
     height: 500px!important;
   }
+  .main-slider img{
+    width: auto!important;
+    height: 100%!important;
+  }
 }
