@@ -16,7 +16,7 @@
 				<ul class="top-header-bar">
 					<!-- Email -->
 					<li class="top-email">
-						<i class="fa fa-envelope-o"></i> <?php echo esc_html( get_theme_mod( 'tyche_top_bar_email', get_option( 'admin_email' ) ) ); ?>
+						<a href="https://fb.com/getupgeek"><i class="fa fa-facebook"></i></a> <?php echo esc_html( get_theme_mod( 'tyche_top_bar_email', get_option( 'admin_email' ) ) ); ?>
 					</li>
 					<!-- / Email -->
 					<?php if ( class_exists( 'WooCommerce' ) ) : ?>
