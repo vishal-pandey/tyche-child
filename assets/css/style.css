@@ -6096,12 +6096,10 @@ object {
 
 .v-social-buttom{
   width: 50px!important;
-  height: 25px!important;
+  height: 30px!important;
   background-color: transparent!important;
   border-color: transparent!important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 .v-social-buttom i{
   font-size: 20px;
