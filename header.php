@@ -61,6 +61,31 @@
 					?>
 				</div>
 
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<?php
+								wp_nav_menu(
+									array(
+										'menu'           => 'primary',
+										'theme_location' => 'primary',
+										'depth'          => 10,
+										'container'      => '',
+										'menu_id'        => 'desktop-menu',
+										'menu_class'     => 'sf-menu',
+										'fallback_cb'    => 'Tyche_Navwalker::fallback',
+										'walker'         => new Tyche_Navwalker(),
+									)
+								);
+								?>
+								<!-- /// Mobile Menu Trigger //////// -->
+								<a href="#" id="mobile-menu-trigger"> <i class="fa fa-bars"></i> </a>
+								<!-- end #mobile-menu-trigger -->
+							</div>
+						</div>
+					</div>
+				</nav>
 				<?php if ( get_theme_mod( 'tyche_show_banner', false ) ) : ?>
 					<div class="col-sm-8 header-banner">
 						<?php
@@ -72,31 +97,7 @@
 			</div>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<?php
-						wp_nav_menu(
-							array(
-								'menu'           => 'primary',
-								'theme_location' => 'primary',
-								'depth'          => 10,
-								'container'      => '',
-								'menu_id'        => 'desktop-menu',
-								'menu_class'     => 'sf-menu',
-								'fallback_cb'    => 'Tyche_Navwalker::fallback',
-								'walker'         => new Tyche_Navwalker(),
-							)
-						);
-						?>
-						<!-- /// Mobile Menu Trigger //////// -->
-						<a href="#" id="mobile-menu-trigger"> <i class="fa fa-bars"></i> </a>
-						<!-- end #mobile-menu-trigger -->
-					</div>
-				</div>
-			</div>
-		</nav><!-- #site-navigation -->
+		<!-- #site-navigation -->
 
 	</header><!-- #masthead -->
 
