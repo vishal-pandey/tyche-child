@@ -6099,7 +6099,7 @@ object {
   height: 30px!important;
   background-color: transparent!important;
   border-color: transparent!important;
-  vertical-align: middle!important;
+  vertical-align: top!important;
 }
 .v-social-buttom i{
   font-size: 20px;
