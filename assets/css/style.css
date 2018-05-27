@@ -6173,6 +6173,7 @@ object {
     display: none!important;
   }
   .v-mobile-nav{
+    margin-top: -30px!important;
     height: 35px!important;
     display: flex;
     align-items: center;
