@@ -4431,9 +4431,6 @@ a:hover, a:active {
   font-weight: 700;
 }
 @media (max-width: 767px) {
-  .site-header , .header-log{
-    height: 100px!important;
-  }
   .site-header .header-logo {
     text-align: center;
   }
@@ -6173,7 +6170,6 @@ object {
     display: none!important;
   }
   .v-mobile-nav{
-    margin-top: -30px!important;
     height: 35px!important;
     display: flex;
     align-items: center;
