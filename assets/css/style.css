@@ -6158,6 +6158,9 @@ object {
 }
 
 
+.add_to_cart_button{
+  display: none!important;
+}
 
 @media (max-width: 767px) {
 
