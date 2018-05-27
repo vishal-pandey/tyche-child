@@ -4432,7 +4432,7 @@ a:hover, a:active {
 }
 @media (max-width: 767px) {
   .site-header{
-    height: 50px!important;
+    height: 100px!important;
   }
   .site-header .header-logo {
     text-align: center;
