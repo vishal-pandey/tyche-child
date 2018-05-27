@@ -1283,7 +1283,7 @@ msgid "My Cart"
 msgstr ""
 
 #: template-parts/top-header.php:35
-msgid "Account"
+msgid "Login / SignUp"
 msgstr ""
 
 #: template-parts/top-header.php:69
