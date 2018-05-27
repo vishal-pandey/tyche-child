@@ -6088,11 +6088,13 @@ object {
 -------------------*/
 
 
-.v-featureImage{
+/*./template-parts/formtpage-widgets/content-area-2.php and 5.php*/
+.v-featureImage, .v-small-featured-image{
   display: flex!important;
   align-items: center!important;
   justify-content: center!important;
 }
+
 
 
 .v-social-buttom{
