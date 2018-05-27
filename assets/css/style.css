@@ -4431,6 +4431,9 @@ a:hover, a:active {
   font-weight: 700;
 }
 @media (max-width: 767px) {
+  .site-header{
+    height: 50px!important;
+  }
   .site-header .header-logo {
     text-align: center;
   }
