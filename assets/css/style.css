@@ -4431,7 +4431,7 @@ a:hover, a:active {
   font-weight: 700;
 }
 @media (max-width: 767px) {
-  .site-header{
+  .site-header , .header-log{
     height: 100px!important;
   }
   .site-header .header-logo {
