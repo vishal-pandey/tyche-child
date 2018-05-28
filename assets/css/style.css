@@ -6097,6 +6097,7 @@ object {
 
 .v-small-featured-image{
   padding: 0px!important;
+  padding-bottom: -30px!important;
   margin: 0px!important;
 }
 
