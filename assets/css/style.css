@@ -6176,7 +6176,7 @@ object {
 
 
   .v-small-featured-image-second-last{
-    margin-top: -50px;
+    margin-top: -50px!important;
   }
 
   .v-desktop-only{
