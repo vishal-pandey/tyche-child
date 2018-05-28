@@ -6095,6 +6095,9 @@ object {
   justify-content: center!important;
 }
 
+.v-small-featured-image{
+  padding: 0px!important;
+}
 
 
 .v-social-buttom{
