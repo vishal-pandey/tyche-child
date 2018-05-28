@@ -6174,6 +6174,11 @@ object {
 
 @media (max-width: 767px) {
 
+
+  .v-small-featured-image-second-last{
+    margin-top: -50px;
+  }
+
   .v-desktop-only{
     display: none!important;
   }

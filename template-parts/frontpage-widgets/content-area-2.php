@@ -25,7 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
 					</div>
 				<?php } ?>
 				<?php if ( is_active_sidebar( 'content-area-2-b' ) ) { ?>
-					<div class="col-md-4 col-sm-6 col-xs-12 v-small-featured-image">
+					<div class="col-md-4 col-sm-6 col-xs-12 v-small-featured-image v-small-featured-image-second-last">
 						<?php
 						dynamic_sidebar( 'content-area-2-b' );
 						?>
