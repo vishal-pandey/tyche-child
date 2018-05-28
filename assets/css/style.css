@@ -6098,6 +6098,7 @@ object {
 .v-small-featured-image{
   padding: 0px!important;
   margin: 0px!important;
+  padding: 5px!important;
 }
 .v-small-featured-image-last{
   margin-top: -50px!important;
