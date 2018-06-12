@@ -6172,6 +6172,14 @@ object {
   display: none!important;
 }
 
+
+
+
+
+.woocommerce ul.products li.product a img{
+  height: auto!important;
+}
+
 @media (max-width: 767px) {
 
 
