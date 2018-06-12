@@ -6176,7 +6176,7 @@ object {
 
 
 
-.woocommerce ul.products li.product a img{
+.attachment-woocommerce_thumbnail {
   height: auto!important;
 }
 
