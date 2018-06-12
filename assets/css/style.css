@@ -6176,9 +6176,6 @@ object {
 
 
 
-.products li{
-  height: auto!important;
-}
 
 @media (max-width: 767px) {
 
